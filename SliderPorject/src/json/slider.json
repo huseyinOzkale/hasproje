@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "./assets/image/img1.jpg",
+        "title": "Switzerland",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!"
+    },
+    {
+        "id": 2,
+        "imageUrl": "./assets/image/img2.jpg",
+        "title": "Finland",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!"
+    },
+    {
+        "id": 3,
+        "imageUrl": "./assets/image/img3.jpg",
+        "title": "Iceland",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!"
+    },
+    {
+        "id": 4,
+        "imageUrl": "./assets/image/img4.jpg",
+        "title": "Australia",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!"
+    },
+    {
+        "id": 5,
+        "imageUrl": "./assets/image/img5.jpg",
+        "title": "Netherland",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!"
+    },
+    {
+        "id": 6,
+        "imageUrl": "./assets/image/img6.jpg",
+        "title": "Ireland",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!"
+    }
+    
+]

@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #333333;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0 30px;
+    line-height: 20px;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col:nth-child(2),
+.col:nth-child(3) {
+    flex-basis: 15%;
+}
+
+.logo {
+    width: 200px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+.location{
+    font-size: 14px;
+}
+.communication{
+    font-size: 14px;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+   
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons .fc:hover {
+    color: #3b5999;
+}
+
+.social-icons .tw:hover {
+    color: black;
+
+}
+
+.social-icons .wp:hover {
+    color: #4dc247;
+
+}
+
+.social-icons .in:hover {
+    color: #e4405f;
+}
+
+hr {
+    border: 0;
+    width: 90%;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.copyright {
+    text-align: center;
+    
+}
+
+.underline {
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span {
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        left: -20px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        bottom: unset;
+    }
+
+    .col {
+        flex-basis: 100%;
+    }
+
+    .col:nth-child(2),
+    .col:nth-child(3) {
+        flex-basis: 100%;
+    }
+}
+
+section{
+    color: #444;
+    padding: 0;
+    background-image: url('/assets/image/backgrounds2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    width: 100%;  
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.b{
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fluid-1{
+    margin-bottom: 30px;
+}
+.fluid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: auto auto ;
+    grid-gap: 10px;
+    justify-items: center;
+    margin-bottom: -150px;
+    margin-top: 10px;
+}
+.company{
+    grid-column: 1 / 4;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.sayac{
+    padding: 20px;
+    z-index: 1;
+}
+.daire{
+    padding-top: 25px;
+    background:#fff;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+}
+
+.timer{
+    font-size: 52px;
+    color: #04144D;
+    
+}
+
+.p{
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 1024px) {
+  
+    .daire {
+        padding-top: 27px;
+        width: 160px;
+        height: 160px; /* Daire boyutlarını azalt */
+    }
+    .p{
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .timer{
+        font-size: 30px;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    .daire {
+        padding-top: 15px;
+        width: 110px;
+        height: 110px; /* Daire boyutlarını daha da azalt */
+    }
+    .p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .timer{
+        font-size: 37px;
+        
+    }
+    .b{
+        position:relative;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .fluid {
+        display: block;
+        margin-bottom: 0px;
+        height: auto;
+        text-align: center;
+    }
+    .daire {
+        width: 130px;
+        height: 130px; /* Daire boyutlarını en çok azalt */
+        margin: 0 auto;
+    }
+    
+}
